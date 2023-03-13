@@ -7,12 +7,12 @@ superheros.push("spiderman","batman")
 const heroPower : Array<number> = []
 
 //array of type
-type User = {
+type person = {
     name: string;
     isActive: boolean
 }
 
-const allUsers : User[] = []
+const allUsers : person[] = []
 
 allUsers.push({name: "ankd", isActive: true})
 
@@ -21,3 +21,5 @@ const MLmodules : number[][] = [
     [3944,33,33],
     [33,339,323]
 ]
+
+
